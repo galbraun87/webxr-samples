@@ -70,7 +70,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       let gl = null;
       let renderer = null;
       let scene = new Scene();
-      let solarSystem = new Gltf2Node({url: 'media/gltf/space/tinker7.gltf'});
+      let solarSystem = new Gltf2Node({url: 'media/gltf/space/tinker8.gltf'});
       // The solar system is big (citation needed). Scale it down so that users
       // can move around the planets more easily.
       solarSystem.scale = [0.01, 0.01, 0.01];
@@ -83,8 +83,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         xrButton = new WebXRButton({
           onRequestSession: onRequestSession,
           onEndSession: onEndSession,
-          textEnterXRTitle: "START AR7",
-          textXRNotFoundTitle: "AR NOT FOUND7",
+          textEnterXRTitle: "START AR8",
+          textXRNotFoundTitle: "AR NOT FOUND8",
           textExitXRTitle: "EXIT  AR",
         });
         document.querySelector('header').appendChild(xrButton.domElement);
