@@ -1,0 +1,267 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 33,
+            "type": "VEC3",
+            "max": [
+                16.299999237060548,
+                -19.899999618530275,
+                12.0
+            ],
+            "min": [
+                -6.300000190734863,
+                -46.70000076293945,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 117,
+            "type": "SCALAR",
+            "max": [
+                32
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 164,
+            "type": "VEC3",
+            "max": [
+                70.0,
+                15.0,
+                35.0
+            ],
+            "min": [
+                -30.0,
+                -15.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 612,
+            "type": "SCALAR",
+            "max": [
+                163
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 213,
+            "type": "VEC3",
+            "max": [
+                58.900001525878909,
+                9.5,
+                29.0
+            ],
+            "min": [
+                -30.0,
+                -19.899999618530275,
+                -10.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 789,
+            "type": "SCALAR",
+            "max": [
+                212
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 10992,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 396,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 396,
+            "byteLength": 468,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 864,
+            "byteLength": 1968,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2832,
+            "byteLength": 2448,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5280,
+            "byteLength": 2556,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7836,
+            "byteLength": 3156,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "color_40919",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "color_15277357",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "color_16448250",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "group_0_40919",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 1,
+                    "attributes": {
+                        "POSITION": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "group_0_15277357",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 2,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 2
+                    }
+                }
+            ]
+        },
+        {
+            "name": "group_0_16448250",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 3,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "input.obj",
+            "children": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "name": "obj_0"
+        },
+        {
+            "name": "group_0_40919",
+            "mesh": 0
+        },
+        {
+            "name": "group_0_15277357",
+            "mesh": 1
+        },
+        {
+            "name": "group_0_16448250",
+            "mesh": 2
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
