@@ -84,10 +84,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       vec3.set(shadow.scale, 0.15, 0.15, 0.15);
       scene.addNode(shadow);
 
-      const directionalLight = new THREE.DirectionalLight(0xffffff, 0.3);
-      directionalLight.position.set(10, 15, 10);
-      scene.add(directionalLight);
-
       // Still adding a skybox, but only for the benefit of the inline view.
       let skybox = new SkyboxNode({url: 'media/textures/milky-way-4k.png'});
       scene.addNode(skybox);
