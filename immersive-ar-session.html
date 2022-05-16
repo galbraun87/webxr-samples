@@ -72,9 +72,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       let gl = null;
       let renderer = null;
       let scene = new Scene();
-      let solarSystem = new Gltf2Node({url: 'media/gltf/sunflower/sunflower.gltf'});
+      let solarSystem = new Gltf2Node({url: 'media/gltf/space/tinker10.gltf'});
       // The solar system is big (citation needed). Scale it down so that users
       // can move around the planets more easily.
+      solarSystem.scale = [0.01, 0.01, 0.01];
       scene.addNode(solarSystem);
 
       // Having a really simple drop shadow underneath an object helps ground
@@ -91,8 +92,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         xrButton = new WebXRButton({
           onRequestSession: onRequestSession,
           onEndSession: onEndSession,
-          textEnterXRTitle: "START AR",
-          textXRNotFoundTitle: "AR NOT FOUND",
+          textEnterXRTitle: "START AR1",
+          textXRNotFoundTitle: "AR NOT FOUND1",
           textExitXRTitle: "EXIT  AR",
         });
         document.querySelector('header').appendChild(xrButton.domElement);
